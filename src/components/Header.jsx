@@ -12,7 +12,7 @@ const Header = () => {
         </ul>
         <ul>
           <li>
-            <a href="#">Make Post</a>
+            <a href="#new">Make Post</a>
           </li>
           <li>
             <a href="#">All Posts</a>

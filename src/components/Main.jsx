@@ -30,7 +30,7 @@ const Main = ({setBlogs, blogs}) => {
     <section>
         <div className="main">
             <h2>Create Blog</h2>
-            <div className="main__container">
+            <div id="#new" className="main__container">
                 <input type="text" placeholder='Title' value={title} onChange={(e) => setTitle(e.target.value)}/>
                 <input type="text" placeholder='ImageURL' value={imgUrl} onChange={(e) => setImgUrl(e.target.value)}/>
                 <input type="text" placeholder='Author' value={author} onChange={(e) => setAuthor(e.target.value)}/>
