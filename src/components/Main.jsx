@@ -29,7 +29,7 @@ const Main = ({setBlogs, blogs}) => {
   return (
     <section>
         <div className="main">
-            <h1>Create Blog</h1>
+            <h2>Create Blog</h2>
             <div className="main__container">
                 <input type="text" placeholder='Title' value={title} onChange={(e) => setTitle(e.target.value)}/>
                 <input type="text" placeholder='ImageURL' value={imgUrl} onChange={(e) => setImgUrl(e.target.value)}/>

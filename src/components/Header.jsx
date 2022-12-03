@@ -7,7 +7,7 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <strong>Texhno Blogs</strong>
+            <h2><strong>ArtiBlogs</strong></h2>
           </li>
         </ul>
         <ul>
