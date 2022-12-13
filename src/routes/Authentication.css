@@ -18,10 +18,9 @@
     height: 30px;
     border-right: gray 1px solid;
 }
-.leftDiv{
 
-}
 
-.rightDiv{
-
+.loginoutput,.signinoutput{
+    color: red;
+    font-size: smaller;
 }
