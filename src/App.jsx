@@ -7,6 +7,7 @@ import axios from "axios";
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 import Card from "./components/Card";
 import Card2 from "./components/Card2";
+import Authentication from "./routes/Authentication";
 
 function App() {
   const [blogs, setBlogs] = useState([]);
@@ -31,6 +32,11 @@ function App() {
         </>
       ),
     },
+    {path:"/loginsignin",element:(
+      <>
+        <Authentication/>
+      </>
+    )}
   ]);
 
   useEffect(() => {
