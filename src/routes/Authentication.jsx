@@ -1,4 +1,5 @@
 import { useState } from "react"
+import './Authentication.css';
 
 export default function Authentication(){
     const [username,setUsername] = useState("");
@@ -7,8 +8,8 @@ export default function Authentication(){
     const [age,setAge] = useState(0);
 
     return(
-        <div >
-            <form>
+        <div className="loginsigninform" >
+            <form >
                 <div>
                     <h1>
                         LOGIN
