@@ -10,7 +10,7 @@ export default function Authentication(){
     return(
         <div className="loginsigninform" >
             <form >
-                <div>
+                <div className="leftDiv">
                     <h1>
                         LOGIN
                     </h1>
@@ -23,7 +23,7 @@ export default function Authentication(){
                        </div>
                     </p>
                 </div>
-                <div>
+                <div className="rightDiv">
                     <h1>
                         SIGNIN
                     </h1>

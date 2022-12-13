@@ -1,3 +1,27 @@
 .loginsigninform{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.loginsigninform form{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 800px;
+}
+.loginsigninform input{
+    width: 100%;
+    height: 30px;
+    border-right: gray 1px solid;
+}
+.leftDiv{
+
+}
+
+.rightDiv{
+
 }
