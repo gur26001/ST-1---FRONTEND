@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect } from "react";
 import { useState } from "react"
+import { redirect } from "react-router-dom";
 import './Authentication.css';
 
 export default function Authentication(){
@@ -29,6 +30,7 @@ export default function Authentication(){
         }).then((res)=>setSigninop(res.data)).catch((error) => {
             setSigninop(error.response.data);
         });
+        // redirect('/post/all');
 
     }
     return(
@@ -43,7 +45,7 @@ export default function Authentication(){
                             <label>Email : </label><input onChange={(e)=>setEmail(e.target.value)} required/>
                        </div>
                        <div>
-                            <label>Password : </label><input onChange={(e)=>setPassword(e.target.value) }required/>
+                            <label>Password : </label><input type="password" onChange={(e)=>setPassword(e.target.value) }required/>
                        </div>
                        <div>
                         <button onClick={Login}>
@@ -73,7 +75,7 @@ export default function Authentication(){
                             <label>Age : </label><input onChange={(e)=>setAge(e.target.value)} required/>
                        </div>
                        <div>
-                            <label>Create Password : </label><input onChange={(e)=>setPassword(e.target.value)} required/>
+                            <label>Create Password : </label><input type="password" onChange={(e)=>setPassword(e.target.value)} required/>
                        </div>
                        <div>
                         <button onClick={Signin}>

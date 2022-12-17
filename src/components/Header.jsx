@@ -8,7 +8,7 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <h2><strong>ArtiBlogs</strong></h2>
+            <h2><strong>The Times of Hindustan</strong></h2>
           </li>
         </ul>
         <ul>
